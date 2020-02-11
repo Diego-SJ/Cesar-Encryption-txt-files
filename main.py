@@ -1,3 +1,5 @@
+from io import open
+
 def cesar_encryption():
     # Read file
     txtFile = open('message.txt','r', encoding="utf8")
